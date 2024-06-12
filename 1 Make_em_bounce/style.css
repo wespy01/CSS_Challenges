@@ -1,0 +1,148 @@
+* {
+    margin: 0;
+    padding: 0;
+    background-color: aqua;
+}
+.container1 {
+    position: absolute;
+    height: 20vh;
+    width: 100vw;
+    background-color: blue;
+}
+.container2 {
+    position: absolute;
+    height: 20vh;
+    width: 100vw;
+    background-color: rgb(55, 55, 177);
+    margin-top: 160px;
+}
+.container3 {
+    position: absolute;
+    height: 20vh;
+    width: 100vw;
+    background-color: rgb(28, 28, 68);
+    margin-top: 320px;
+}
+.container4 {
+    position: absolute;
+    height: 20vh;
+    width: 100vw;
+    background-color: black;
+    margin-top: 480px;
+}
+.ball1 {
+    height: 31px;
+    width: 31px;
+    background-color: yellow;
+    border-radius: 70px;
+    position:absolute;
+    bottom: 0;
+    left: 0;
+    animation: onX1 3s linear infinite alternate, onY1 0.7s ease-in-out infinite alternate;
+}
+.ball2 {
+    height: 31px;
+    width: 31px;
+    background-color: rgb(9, 255, 62);
+    border-radius: 70px;
+    position:absolute;
+    bottom: 0;
+    left: 0;
+    animation: onX2 2.5s linear infinite alternate, onY2 0.7s ease-in-out infinite alternate;
+}
+.ball3 {
+    height: 31px;
+    width: 31px;
+    background-color: rgb(255, 9, 9);
+    border-radius: 70px;
+    position:absolute;
+    bottom: 0;
+    left: 0;
+    animation: onX3 2.7s linear infinite alternate, onY3 0.7s ease-in-out infinite alternate;
+}
+.ball4 {
+    height: 31px;
+    width: 31px;
+    background-color: rgb(9, 255, 255);
+    border-radius: 70px;
+    position:absolute;
+    bottom: 0;
+    left: 0;
+    animation: onX3 2.1s linear infinite alternate, onY3 0.7s ease-in-out infinite alternate;
+}
+
+@keyframes onX1 {
+    from {
+        left: 0%;
+    }
+
+    to {
+        left: 99%;
+        background-color: rgb(255, 9, 193);
+    }
+}@keyframes onY1 {
+    from {
+        bottom: 0%;
+    }
+    
+    to {
+        bottom: 79%;
+    }
+}
+
+@keyframes onX2 {
+    from {
+        left: 0%;
+    }
+    
+    to {
+        left: 99%;
+        background-color: rgb(255, 9, 193);
+    }
+}@keyframes onY2 {
+    from {
+        bottom: 0%;
+    }
+    
+    to {
+        bottom: 79%;
+    }
+}
+
+@keyframes onX3 {
+    from {
+        left: 0%;
+    }
+    
+    to {
+        left: 99%;
+        background-color: rgb(255, 9, 193);
+    }
+}@keyframes onY3 {
+    from {
+        bottom: 0%;
+    }
+    
+    to {
+        bottom: 79%;
+    }
+}
+
+@keyframes onX4 {
+    from {
+        left: 0%;
+    }
+    
+    to {
+        left: 99%;
+        background-color: rgb(255, 9, 193);
+    }
+}@keyframes onY4 {
+    from {
+        bottom: 0%;
+    }
+
+    to {
+        bottom: 79%;
+    }
+}
