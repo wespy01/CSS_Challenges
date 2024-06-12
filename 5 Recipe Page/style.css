@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&family=Young+Serif&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Young Serif", serif;
+    font-family: "Outfit", sans-serif;
+}
+body{
+    background-color: #f3e5d8;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container{
+    width: 25vw;
+    background-color: white;
+    border-radius: 10px;
+}
+.box{
+    margin: 1vw;
+}
+.container img{
+    width: 23vw;
+    border-radius: 10px;
+}
+h1{
+    font-size: 23px;
+    margin-top: 10px;
+    font-weight: 400;
+    font-family: "Young Serif", serif;
+}
+.box p{
+    margin-top: 5px;
+    color: #707070;
+    font-size: 12px;
+    font-weight: 400;
+}
+
+.preparation{
+    border-radius: 7px;
+    margin: auto;
+    width: 23vw;
+    background-color: #fff7fc;
+}
+h3{
+    padding: 10px;
+    font-size: 15px;
+    color: #743d57;
+}
+.preparation ul li, .ingredients ul li, .instructions ol li{
+    padding-left: 5px;
+    margin-top: 2px;
+}
+.preparation ul, .ingredients ul, .instructions ol{
+    font-size: 13px;
+    padding: 0 30px;
+    padding-bottom: 10px;
+}
+.ingredients h3, .instructions h3, .Nutrition h3{
+    color: #864e40;
+    font-size: 15px;
+    font-family: "Young Serif", serif;
+}
+.separator{
+    width: 90%;
+    margin: 10px auto;
+    height: 1px;
+    background-color: gray;
+
+}
+.Nutrition p{
+    padding: 0 10px;
+    color: #707070;
+    font-size: 12px;
+    font-weight: 400;
+}
+.nutri{
+    margin: 10px 0 20px 0;
+}
+.nutri_box{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px 110px 0 50px;
+}
+.nutri_box p:nth-child(2){
+    font-weight: 800;
+    color: #743d57;
+}
+
