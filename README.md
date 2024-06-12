@@ -1,6 +1,6 @@
 # CSS_Challenges
 
-Some CSS challenges and side projects taken from [front-end mentor](frontendmentor.io) and other sources. 
+Some CSS challenges and side projects taken from [front-end mentor](https://www.frontendmentor.io/) and other sources. 
 
 #
 
